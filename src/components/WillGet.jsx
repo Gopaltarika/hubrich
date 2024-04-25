@@ -1,10 +1,14 @@
 import React from 'react'
 import flawer from "../assets/images/flawer.webp";
 import BigBtn from './BigBtn';
+import ellipis from "../assets/images/will-ellipis.png";
+import ellipis2 from "../assets/images/will-ellipis2.png";
 
 const WillGet = () => {
     return (
-        <div>
+        <div className='relative'>
+            <img className='absolute top-[18%] max-lg:max-w-[100px] max-sm:hidden right-0' src={ellipis} alt="ellipis" />
+            <img className='absolute bottom-[-17%] max-lg:max-w-[100px] max-sm:hidden left-0' src={ellipis2} alt="ellipis" />
             <div className='container relative mt-[70px] sm:mt-[122px]'>
                 <div className='flex flex-col absolute max-md:hidden md:top-[-72%] min-[850px]:top-[-80%] max-lg:left-0 max-lg:-rotate-90 lg:top-[-25%] right-[0%] items-start'>
                     <p className='lg:-rotate-90 rotate-90 inline-block font-light text-[20px] font-poppins mb-4 ml-[45px]'>MJH</p>

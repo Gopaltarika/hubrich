@@ -6,11 +6,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-cube';
 import SwiperButton from './SwiperButton';
+import ellipis from "../assets/images/analysis-ellipis.png";
 
 const Analysis = () => {
     const swiper = useSwiper();
     return (
-        <div className='relative'>
+        <div className='relative overflow-x-clip'>
+            <img className='absolute top-[-10%] lg:top-[-45%] max-lg:max-w-[200px] max-sm:hidden left-0' src={ellipis} alt="ellipis" />
             <div className='container relative z-[1]'>
                 <div className='flex max-md:hidden flex-col items-end'>
                     <p className='-rotate-90 inline-block font-light text-[20px] font-poppins mb-4 mt-4 mr-[10px]'>MJH</p>

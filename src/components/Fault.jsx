@@ -1,8 +1,10 @@
 import React from 'react'
 import BigBtn from './BigBtn'
+import ellipis from "../assets/images/second-sec-ellipis.png";
 const Fault = () => {
     return (
-        <div className='sm:mt-[151px]'>
+        <div className='sm:mt-[151px] relative'>
+            <img className='absolute top-[-5%] max-sm:hidden lg:top-[-20%] right-0 max-lg:max-w-[100px]' src={ellipis} alt="ellipis" />
             <div className="container relative">
                 <div className='flex flex-col absolute max-md:hidden top-[-70%] max-sm:rotate-90 max-sm:left-[40%] sm:top-[-120%] md:top-[-143%] lg:top-[-120%] 2xl:top-[-143%] items-start'>
                     <p className='-rotate-90 inline-block font-light text-[20px] font-poppins mb-5'>MJH</p>
