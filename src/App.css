@@ -4,7 +4,9 @@
   font-family: "Helvetica Neue";
   src: url(./assets/fonts/HelveticaNeueLight.otf);
 }
-
+*{
+  scroll-behavior: smooth;
+}
 .ff-neue {
   font-family: "Helvetica Neue", sans-serif;
 }
@@ -16,6 +18,7 @@
   padding-left: 12px;
   padding-right: 12px;
 }
+
 
 @media (min-width:1440.1px) {
   .container {
