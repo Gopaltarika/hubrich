@@ -6,9 +6,9 @@ const Binding = () => {
             <div className="container pt-8 pb-8 sm:pt-[71px] sm:pb-[59px]">
                 <div className='flex max-md:flex-col w-full items-center justify-between'>
                     <div data-aos="fade-right">
-                        <h2 className='ff-neue font-normal text-black text-[52px] leading-[66px] uppercase'>Request your </h2>
-                        <h2 className='ff-neue font-normal text-black text-[52px] leading-[66px] uppercase'><span className='text-[#F77B0B]'>non-binding </span> strategy</h2>
-                        <h2 className='ff-neue font-normal text-black text-[52px] leading-[66px] uppercase'>Request your </h2>
+                        <h2 className='ff-neue font-normal text-black text-[35px] sm:text-[45px] md:text-[48px] leading-[66px] uppercase'>Request your </h2>
+                        <h2 className='ff-neue font-normal text-black text-[35px] sm:text-[45px] md:text-[48px] leading-[66px] uppercase'><span className='text-[#F77B0B]'>non-binding </span> strategy</h2>
+                        <h2 className='ff-neue font-normal text-black text-[35px] sm:text-[45px] md:text-[48px] leading-[66px] uppercase'>Request your </h2>
                     </div>
                     <p className=' md:max-w-[410px] max-md:mt-5 md:ml-[129px] border-s-2 border-[#9800B0] text-black font-poppins font-normal text-[16px] pl-[13px]' data-aos="fade-left">Click on the button below, choose an appointment and answer the questions truthfully. One of our strategy consultants will then contact you and conduct your free consultation. We can advise you on the following topics: </p>
                 </div>
