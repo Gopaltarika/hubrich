@@ -17,8 +17,8 @@ const MyNav = () => {
                         <img width={145} height={53} src={logo} alt="logo" />
                     </a>
                     <ul className={`flex items-center gap-[40px] duration-500 max-md:flex-col max-md:justify-center max-md:fixed max-md:top-0 z-20 max-md:h-full max-md:w-full max-md:bg-white ${navbar ? "opacity-100 left-0" : "max-md:opacity-0 max-md:left-[-100%]"}`}>
-                        <li><a href="#" className="text-white font-bold text-[16px] opacity-70 ff-neue max-lg:text-black hover:text-black duration-300" onClick={view}>Benifits</a></li>
-                        <li><a href="#" className="text-white font-bold text-[16px] opacity-70 ff-neue max-lg:text-black hover:text-black duration-300" onClick={view}>Testimonials</a></li>
+                        <li><a href="#benefit" className="text-white font-bold text-[16px] opacity-70 ff-neue max-lg:text-black hover:text-black duration-300" onClick={view}>Benifits</a></li>
+                        <li><a href="#Testimonials" className="text-white font-bold text-[16px] opacity-70 ff-neue max-lg:text-black hover:text-black duration-300" onClick={view}>Testimonials</a></li>
                         <li><a href="#" className='text-white hover:bg-white hover:text-transparent border-2 border-transparent hover:border-[#8703C5] hover:bg-clip-text bg-btn px-[28px] py-4 font-Inter text-[16px] font-medium inline-block'>Book consultation now</a></li>
                     </ul>
                     <div className='relative z-30 md:hidden' onClick={view}>

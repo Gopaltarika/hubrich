@@ -2,7 +2,7 @@ import React from 'react'
 import BigBtn from './BigBtn'
 const Binding = () => {
     return (
-        <div className='bg-[#F2F8FF] overflow-x-clip'>
+        <div className='bg-[#F2F8FF] overflow-x-clip' id='benefit'>
             <div className="container pt-8 pb-8 sm:pt-[71px] sm:pb-[59px]">
                 <div className='flex max-md:flex-col w-full items-center justify-between'>
                     <div data-aos="fade-right">

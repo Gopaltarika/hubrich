@@ -1,7 +1,7 @@
 import React from 'react'
 const Target = () => {
     return (
-        <div className='pt-[70px] sm:pt-[86px] overflow-x-clip relative z-[1]'>
+        <div className='pt-[70px] sm:pt-[86px] overflow-x-clip relative z-[1]' id="Testimonials">
             <div className="bg-[#F2F8FF]">
                 <div className="container flex max-sm:flex-col items-center justify-end pt-6 sm:pt-[48px] pb-6 sm:pb-[52px]" data-aos="fade-down">
                     <h2 className='uppercase text-black ff-neue font-normal sm:text-[45px] text-[40px] md:text-[52px] text-center'><span className=' text-[#F77B0B]'>TARGET</span> group</h2>
